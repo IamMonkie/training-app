@@ -15,23 +15,27 @@
 .App-header {
   /* background-color: #282c34; */
   /* min-height: 100vh; */
-  opacity: 0.8;
+  /* opacity: 0.8; */
   transition: opacity 0.5s ease;
   align-items: initial;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  box-shadow: 0 10px 10px rgba(255, 0, 242, 0.6);
-  z-index: 1;
 }
 
-.App-header:hover {
+.fixed-top {
+  box-shadow: 0 10px 20px rgba(255, 0, 242, 1) /*magenta*/;
+  z-index: 2;
+}
+
+/* .App-header:hover {
   opacity: 1;
   transition: opacity 0.5s ease;
-}
+  z-index: 2;
+} */
 
 .App-body {
-  padding: 10vh;
+  padding-top: 15vh;
   text-align: center;
   background-color: #282c34;
   color: mediumseagreen;
