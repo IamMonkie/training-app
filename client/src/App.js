@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import logo from './logo.svg';
 import "./App.css";
 import MainNavbar from "./components/Navbar/Navbar";
-import TrainingTopic from "./pages/TrainingTopic";
+import TrainingTopic from "./pages/TrainingTopic/TrainingTopic";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { MDBAnimation } from "mdbreact";
 
